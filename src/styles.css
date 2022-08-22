@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    font-family: 'Poppins','sans-serif';
+}
+
+section{
+    padding:28px;
+}
+
+/*Navigation Bar */
+
+nav{
+    display:flex;
+    padding:20px 36px 20px 36px;
+    padding-left:36px;
+    box-shadow:0px 3px 7.4px rgba(0,0,0,0.1);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.airbnb-logo{
+    width:120px;
+}
+
+/* Hero Section */
+
+.hero-section{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid-pic{
+    align-self: center;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.hero-section h1{
+    margin-bottom: 16px;
+}
+
+.hero-section p{
+    margin-top:0;
+}
+
+/* Cards Section */
+
+.card{
+    width:18rem;
+    position:relative;
+}
+
+.pricing{
+    font-weight: bold;
+}
+
+.fa-star{
+    color:red;
+}
+
+.rating{
+    font-weight: 600;
+}
+
+.status{
+    position:absolute;
+    float:left;
+    padding:5px;
+    background-color: red;
+    width:5.5rem;
+    height:2rem;
+    margin:10px;
+    border-radius: 5%;
+    font-weight: bold;
+    color: white;
+}
+
+.card-img-top{
+    height:15rem;
+}
+
+.slot{
+    display:flex;
+    justify-content: center;
+}
+
+/* Transition Section */
+
+.transition-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------------TRAVEL PAGE-------------------------------------------------*/
+
+.travel-nav{
+    position: relative;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.back{
+    width:10%;
+}
+
+.thing{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-slot{
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.travel-card{
+    display: flex;
+    gap:50px;
+    margin:50px 0 50px 0;
+}
+
+.travel-img{
+    width:20rem;
+}
+
+.fa-location-dot{
+    color:red;
+}
+
+.travel-card h1{
+    font-weight: bolder;
+}
+
+.travel-card h5{
+    color:red;
+    font-weight: bold;
+}
+
+.travel-card a{
+    margin-left:5px;
+    color:gray;
+}
